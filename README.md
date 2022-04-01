@@ -1,10 +1,11 @@
 # Assessing the communicated severity of COVID-19 with real-life severity
 
-## Background
+## Introduction
+
+### Background
 
 It is scarcely an overstatement to suggest that the COVID-19 pandemic has had enormous ramifications on the way we live, work, and relate to each other and the world around us. While sequestered and isolated in their poorly organised home offices, academics the world over have revelled at the opportunity to analyse every single facet of the nature of the disease; the management of the response to it; how close we should be to each other; whether mask mandates work. The list could be infinitely long. A curious common denominator among these lines of inquiry, however, has been the focus on **narrative shaping behaviour**. Not only has the response to the pandemic been scrutinised, but the manner in which that response has been detailed and delivered to the public, namely the **crisis communication**, has been seemingly almost as important.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ### Crisis Communication
 
 **Crisis communication** may be defined as the strategic management of a specific event, aimed at framing the public perception of the event itself, and decreasing the level of harm experienced by the state, the stakeholders, and the general public (Schwarz, Seeger, Auer, Rogers & Pearce, 2016). The  crisis communication strategy is highly important, impacting risk perception, affecting both short- (vaccination, evacuation of homes, conforming to restrictions) and long-term behaviour (physical and mental health outcomes). It has been shown that when threat appraisals are high, the public is more likely to respond to public health messages (Schwarz et al., 2016). Nevertheless, the public response itself is difficult to predict, not always being a protective one, e.g. the unnecessarily high use of antibiotics in reaction to the anthrax attacks in the US. The direction and amplitude of the response are influenced vastly by individual beliefs about the content of the public health message, as well as the perceptions of the individual/organisation who is communicating the message (the messenger).
@@ -21,11 +22,11 @@ Our country of study for this experiment is the United Kingdom. Why? To limit th
 
 Further qualitative studies have shown that the clashing of narratives, sometimes even from the same source, has decreased citizen trust in government, and increased their vaccine hesitancy (Lockyer et al., 2021). This setting should therefore lend itself to an antagonistic and productive narrative landscape, optimal for our research.
 
-### Research Framing
+### Framing our Research
 
-**Main Research Question**
+#### Main Research Question
 
-**1. *How can we use NLP to show a difference in communicated urgency over the course of a crisis?***
+**1. How can we use NLP to show a difference in communicated urgency over the course of a crisis?**
 
      H1: The proportion of urgent words is lower in TP2 than in TP1 and TP3
 
@@ -33,9 +34,7 @@ Further qualitative studies have shown that the clashing of narratives, sometime
 
 The Coronavirus having been such a hot topic over the past two years, guaranteed both timely and sufficient data, contributing to our choice of topic. Additionally, the observable, large, and quantifiable difference in "real urgency" (ICU bed occupancy) between wave peaks and lows, sets optimal conditions for an analysis. This further makes it reasonable to assume that indeed there should be a change in communication over time, allowing us to test if simple NLP can detect such differences. Lastly, if indeed simple NLP does detect such differences, the application of complex NLPs to similar research questions is rendered highly interesting.
 
-### Support or Contact
-
-**Supplementary research questions**
+#### Supplementary research questions
 
 We posit several different things, all of which we will test and explain below. 
 First, that narratives around the **severity** of the pandemic have shifted over time, as we have learned how to ""live with it"". This is to say that we would expect a difference between the communicated urgency of the pandemic at time T+n compared to at time T. 
@@ -46,6 +45,38 @@ In line with this, we formulated two further research questions, which focus mor
 **2. As the pandemic wears on, does the communication about the urgency of COVID become less urgent, even though the real urgency of the situation speaks to the contrary?**
 
 **3. Is there a difference in urgency between the data sources?**
+
+## Methods
+
+### Temporal Scope
+
+Timing is important. Given the relative simplicity of our model (elaborated on in the next section), it had to be tested on time periods during which we could assume that there should be a clear difference in how urgent the pandemic was described relative to any other time period. This led us to limit our scope to three distinct time periods (from April 09 to April 15 2020 (TP1); from August 25 to August 31 2020 (TP2); from January 21 to January 27 2021 (TP3). How did we choose these particular time periods? Our reasoning went as follows.
+
+1. Communication around the pandemic should (roughly) follow its spread through society.
+2. Disease spread can be measured through absolute overall caseload, ICU occupancy, or death rate, to name a few indicators.
+3. There is significant discrepancy between the peaks in ICU occupancy and overall cases.
+4. ICU occupancy better reflects the severity (in terms of its impact on society's capacity to manage the disease) than does overall case load.
+5. Therefore, we chose ICU occupancy as our proxy for societal severity.
+
+![Peak ICU first wave](https://github.com/Cheshire-Cat94/Cheshire-Cat94.github.io/blob/main/peak%20icu%20w1.png)
+
+![overall ICU peaks](https://github.com/Cheshire-Cat94/Cheshire-Cat94.github.io/blob/main/peak%20icu%20overall.png)
+
+![incidence](https://github.com/Cheshire-Cat94/Cheshire-Cat94.github.io/blob/main/new%20cases.png)
+
+Comparing the figures above, it is clear that the relative peaks in ICU occupancy and overall case load only faintly correspond to each other. The time periods for which we gathered data thus correspond to a week surrounding the peak in ICU occupancy during the first Covid wave in the UK (TP1); a week surrounding the absolute lowest rate of ICU occupancy for the dataset as a whole (which fortunately enough also is in between the two peaks) (TP2); and a week surrounding the absolute peak in ICU occupancy (TP3).
+
+### Data Collection![peak icu w1]
+
+**INSERT CODE BLOCKS**
+
+### Data Analysis
+
+## Results
+
+## Discussion
+
+### Limitations
 
 ## References
 
