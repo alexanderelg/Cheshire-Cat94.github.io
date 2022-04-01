@@ -1,5 +1,7 @@
 # Assessing the communicated severity of COVID-19 with real-life severity
 
+Authors: Alexander Elg, Lea Dornacher and Sina Wahby
+
 ## Introduction
 
 ### Background
